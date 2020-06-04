@@ -520,25 +520,25 @@ function createWindow() {
         mediaControl.nextTrack(view)
     })
 
-    globalShortcut.register('CmdOrCtrl+Shift+Space', function () {
-        mediaControl.playPauseTrack(view)
-    })
+    // globalShortcut.register('CmdOrCtrl+Shift+Space', function() {
+    //     mediaControl.playPauseTrack(view)
+    // })
 
-    globalShortcut.register('CmdOrCtrl+Shift+PageUp', function () {
-        mediaControl.nextTrack(view)
-    })
+    // globalShortcut.register('CmdOrCtrl+Shift+PageUp', function() {
+    //     mediaControl.nextTrack(view)
+    // })
 
-    globalShortcut.register('CmdOrCtrl+Shift+PageDown', function () {
-        mediaControl.previousTrack(view)
-    })
+    // globalShortcut.register('CmdOrCtrl+Shift+PageDown', function() {
+    //     mediaControl.previousTrack(view)
+    // })
 
-    globalShortcut.register('CmdOrCtrl+Shift+numadd', function () {
-        mediaControl.upVote(view)
-    })
+    // globalShortcut.register('CmdOrCtrl+Shift+numadd', function() {
+    //     mediaControl.upVote(view)
+    // })
 
-    globalShortcut.register('CmdOrCtrl+Shift+numsub', function () {
-        mediaControl.downVote(view)
-    })
+    // globalShortcut.register('CmdOrCtrl+Shift+numsub', function() {
+    //     mediaControl.downVote(view)
+    // })
 
     ipcMain.on('restore-main-window', function () {
         mainWindow.show()

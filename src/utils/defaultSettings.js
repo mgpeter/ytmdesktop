@@ -39,9 +39,9 @@ settingsProvider.setInitialValue(
 settingsProvider.setInitialValue('settings-enable-taskbar-progressbar', true) // Yes
 
 settingsProvider.setInitialValue('settings-accelerators', {
-    'media-play-pause': 'CmdOrCtrl+Shift+Space',
-    'media-track-next': 'CmdOrCtrl+Shift+PageUp',
-    'media-track-previous': 'CmdOrCtrl+Shift+PageDown',
-    'media-track-like': 'CmdOrCtrl+Shift+numadd',
-    'media-track-dislike': 'CmdOrCtrl+Shift+numsub',
+    'media-play-pause': 'MediaPlayPause',
+    'media-track-next': 'MediaNextTrack',
+    'media-track-previous': 'MediaPreviousTrack',
+    'media-track-like': '',
+    'media-track-dislike': '',
 })
